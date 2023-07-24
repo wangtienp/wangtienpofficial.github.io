@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <div class="input-container">
+    <div class="labels">
+      <label for="day">DAY</label>
+      <label for="month">MONTH</label>
+      <label for="year">YEAR</label>
+    </div>
+
+    <div class="date-input">
+      <input type="number" id="day" placeholder="DD">
+      <input type="number" id="month" placeholder="MM">
+      <input type="number" id="year" placeholder="YYYY">
+    </div>
+    <div class="validations">
+      <span class="required" id="invalid-day"></span>
+      <span class="required" id="invalid-month"></span>
+      <span class="required" id="invalid-year"></span>
+    </div>
+  </div>
+  <div class="button">
+    <div class="middle-line"></div>
+    <div class="circle">
+      <span id="left-curve"></span>
+      <span id="vertical-line"></span>
+      <span id="right-curve"></span>
+    </div>
+  </div>
+  <div class="results">
+    <p><span class="answers" id="answer-year">--</span>years</p>
+    <p><span class="answers" id="answer-month">--</span>months</p>
+    <p><span class="answers" id="answer-day">--</span>days</p>
+  </div>
+</div>
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Pang Wang Tien</a>. -->
+  <!-- </div> -->
+  <script src="script.js"></script>
+</body>
+
+</html>
