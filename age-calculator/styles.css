@@ -137,7 +137,7 @@ input::-webkit-outer-spin-button{
 .answers{
     color: hsl(259, 100%, 65%);
 }
-@media(width<=390px) {
+@media(width<=450px) {
     .labels{
         font-size: 0.4rem;
     }
